@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ТурКлуб РТУ МИРЭА</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__content">
+        <a class="logo" href="/">
+          <img
+            class="logo__image"
+            src="logo.png"
+            alt="Логотип ТурКлуба РТУ МИРЭА"
+          />
+          ТурКлуб<br />РТУ МИРЭА
+        </a>
+        <button
+          class="header__button"
+          id="openMenu"
+          type="button"
+          aria-label="Открыть меню"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M4 5h16" />
+            <path d="M4 12h16" />
+            <path d="M4 19h16" />
+          </svg>
+        </button>
+        <nav class="navigation header__navigation">
+          <a class="navigation__link" href="#">Главная</a>
+          <a class="navigation__link" href="#">О клубе</a>
+          <a class="navigation__link" href="#">Направления</a>
+          <a class="navigation__link" href="#">Контакты</a>
+          <button
+            class="navigation__close"
+            id="closeMenu"
+            type="button"
+            aria-label="Закрыть меню"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero__image-wrapper">
+          <img
+            class="hero__image"
+            src="hero.jpg"
+            alt="Туристы в горах"
+            loading="lazy"
+          />
+          <div class="hero__image-overlay"></div>
+        </div>
+        <div class="hero__content">
+          <h1 class="hero__title">Студенческий турклуб РТУ МИРЭА</h1>
+          <p class="hero__subtitle">
+            Походы, слёты, тренировки и активное сообщество
+          </p>
+          <p class="hero__text">
+            Мы организуем пешие, горные и водные походы, обучаем туристическим
+            навыкам, готовим к маршрутам и объединяем студентов, которым близка
+            любовь к приключениям и природе.
+          </p>
+          <div class="hero__buttons">
+            <a class="hero__button" href="#">Присоединиться</a>
+            <a class="hero__button hero__button--secondary" href="#"
+              >Узнать больше</a
+            >
+          </div>
+        </div>
+        <div class="hero__arrow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M8 18L12 22L16 18" />
+            <path d="M12 2V22" />
+          </svg>
+        </div>
+      </div>
+      <section class="container section section--about">
+        <div>
+          <div class="section__header">
+            <h2 class="section__title">О клубе</h2>
+          </div>
+          <div>
+            <p class="section__text">
+              Мы - студенческий турклуб, где каждый может найти свое направление
+              и раскрыть новые возможности. Через путешествия мы находим друзей
+              и вдохновение, расширяем горизонты и становимся сильнее.
+            </p>
+            <p class="section__text">
+              Приглашаем всех, кто ищет новые впечатления, хочет развить
+              туристические навыки и провести время с пользой и в хорошей
+              компании.
+            </p>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="about-card__image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+                <path
+                  d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19"
+                />
+              </svg>
+            </div>
+            <div class="about-card__content">
+              <span class="about-card__title">Походы</span>
+              <p class="about-card__text">
+                Пешие, горные и водные маршруты для разного уровня подготовки.
+              </p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card__image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path
+                  d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div class="about-card__content">
+              <span class="about-card__title">Обучение</span>
+              <p class="about-card__text">
+                Практические занятия по ориентированию, первой помощи,
+                снаряжению и походной кухне.
+              </p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card__image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                <circle cx="9" cy="7" r="4" />
+              </svg>
+            </div>
+            <div class="about-card__content">
+              <span class="about-card__title">Сообщество</span>
+              <p class="about-card__text">
+                Активные студенты, ежегодные мероприятия и атмосферная
+                поддержка.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container section section--contact">
+        <div class="section__header">
+          <h2 class="section__title">Контакты</h2>
+        </div>
+        <div class="section__text">
+          Задавайте вопросы, следите за новостями и присоединяйтесь к команде.
+        </div>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-card__image">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 576 512"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z"
+                ></path>
+              </svg>
+            </div>
+            <div class="contact-card__content">
+              <span class="contact-card__title">Группа ВКонтакте</span>
+              <p class="contact-card__text">
+                Новости, анонсы, фотоотчеты и полезная информация.
+              </p>
+              <a class="contact-card__link" href="#">
+                Перейти в группу
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 8L22 12L18 16" />
+                  <path d="M2 12H22" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card__image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="#fff"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"
+                />
+                <path d="M8 12h.01" />
+                <path d="M12 12h.01" />
+                <path d="M16 12h.01" />
+              </svg>
+            </div>
+            <div class="contact-card__content">
+              <span class="contact-card__title">Чат ВКонтакте</span>
+              <p class="contact-card__text">
+                Общаемся, делимся опытом и отвечаем на вопросы.
+              </p>
+              <a class="contact-card__link" href="#">
+                Перейти в чат
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 8L22 12L18 16" />
+                  <path d="M2 12H22" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card__image">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 448 512"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="contact-card__content">
+              <span class="contact-card__title">Чат Telegram</span>
+              <p class="contact-card__text">
+                Оперативные новости и обсуждение в Telegram.
+              </p>
+              <a class="contact-card__link" href="#">
+                Перейти в чат
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 8L22 12L18 16" />
+                  <path d="M2 12H22" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__content">
+        <div class="footer__left">
+          <a class="logo logo--footer" href="/">
+            <img
+              class="logo__image"
+              src="logo.png"
+              alt="Логотип ТурКлуба РТУ МИРЭА"
+            />
+            ТурКлуб<br />РТУ МИРЭА
+          </a>
+          <p class="footer__text">
+            Студенческий клуб<br />
+            Походы, слёты, тренировки и активное сообщество.
+          </p>
+        </div>
+        <div class="footer__right">
+          <nav class="footer__navigation">
+            <a class="footer__link" href="#">Главная</a>
+            <a class="footer__link" href="#">О клубе</a>
+            <a class="footer__link" href="#">Направления</a>
+            <a class="footer__link" href="#">Контакты</a>
+          </nav>
+          <p class="footer__copyright">
+            © Студенческий турклуб РТУ МИРЭА. Все права защищены.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
