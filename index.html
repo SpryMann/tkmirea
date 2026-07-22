@@ -12,7 +12,7 @@
         <a class="logo" href="/">
           <img
             class="logo__image"
-            src="logo.png"
+            src="assets/logo.png"
             alt="Логотип ТурКлуба РТУ МИРЭА"
           />
           ТурКлуб<br />РТУ МИРЭА
@@ -42,7 +42,7 @@
         <nav class="navigation header__navigation">
           <a class="navigation__link" href="#hero">Главная</a>
           <a class="navigation__link" href="#about">О клубе</a>
-          <a class="navigation__link" href="#">Направления</a>
+          <a class="navigation__link" href="#destinations">Направления</a>
           <a class="navigation__link" href="#contacts">Контакты</a>
           <button
             class="navigation__close"
@@ -73,7 +73,7 @@
         <div class="hero__image-wrapper">
           <img
             class="hero__image"
-            src="hero.jpg"
+            src="assets/hero.jpg"
             alt="Туристы в горах"
             loading="lazy"
           />
@@ -213,6 +213,1208 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="section section--destinations" id="destinations">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Направления</h2>
+            <div class="section__buttons">
+              <button
+                class="section__button"
+                id="prevSliderMobile"
+                type="button"
+                aria-label="Предыдущий слайд"
+                disabled
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m12 19-7-7 7-7" />
+                  <path d="M19 12H5" />
+                </svg>
+              </button>
+              <button
+                class="section__button"
+                id="nextSliderMobile"
+                type="button"
+                aria-label="Следующий слайд"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="section__text">
+            Выбирайте формат активностей по интересам и уровню подготовки.
+          </div>
+        </div>
+        <div class="slider section__slider">
+          <div class="slider__container">
+            <div class="slide">
+              <div class="slide__image-wrapper">
+                <img
+                  class="slide__image"
+                  src="assets/destinations-1.webp"
+                  alt="Пеший туризм"
+                />
+              </div>
+              <div class="slide__content">
+                <div class="slide__badge">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M19 23h-1.5v-9H19zM7.53 14H6l-2 9h1.53zm5.97-8.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2M9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6a2.145 2.145 0 0 0-2.65-.84L6 8.3V13h2V9.6z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="slide__title">Пешеходный туризм</p>
+                <p class="slide__text">
+                  Исследуйте живописные маршруты в горах и лесах. Развивайте
+                  выносливость, командный дух и навыки ориентирования на
+                  местности.
+                </p>
+                <div class="specs slide__specs">
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+                        <rect x="15" y="5" width="4" height="12" rx="1" />
+                        <rect x="7" y="8" width="4" height="9" rx="1" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Уровень</span>: начальный /
+                      средний
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <path d="M8 2v4" />
+                        <path d="M17 14h-6" />
+                        <path d="M13 18H7" />
+                        <path d="M7 14h.01" />
+                        <path d="M17 18h.01" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Формат</span>: выходного дня
+                      / многодневный
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 2v4" />
+                        <path d="m16.2 7.8 2.9-2.9" />
+                        <path d="M18 12h4" />
+                        <path d="m16.2 16.2 2.9 2.9" />
+                        <path d="M12 18v4" />
+                        <path d="m4.9 19.1 2.9-2.9" />
+                        <path d="M2 12h4" />
+                        <path d="m4.9 4.9 2.9 2.9" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Сезон</span>: круглый год
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+                        />
+                        <circle cx="12" cy="8" r="2" />
+                        <path
+                          d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+                        />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight"> Что будет </span>:
+                      маршруты, тренировки, ориентированиеб походы
+                    </p>
+                  </div>
+                  <button class="specs__button" type="button">
+                    Подробнее
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide__image-wrapper">
+                <img
+                  class="slide__image"
+                  src="assets/destinations-1.webp"
+                  alt="Пеший туризм"
+                />
+              </div>
+              <div class="slide__content">
+                <div class="slide__badge">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M19 23h-1.5v-9H19zM7.53 14H6l-2 9h1.53zm5.97-8.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2M9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6a2.145 2.145 0 0 0-2.65-.84L6 8.3V13h2V9.6z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="slide__title">Пешеходный туризм</p>
+                <p class="slide__text">
+                  Исследуйте живописные маршруты в горах и лесах. Развивайте
+                  выносливость, командный дух и навыки ориентирования на
+                  местности.
+                </p>
+                <div class="specs slide__specs">
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+                        <rect x="15" y="5" width="4" height="12" rx="1" />
+                        <rect x="7" y="8" width="4" height="9" rx="1" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Уровень</span>: начальный /
+                      средний
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <path d="M8 2v4" />
+                        <path d="M17 14h-6" />
+                        <path d="M13 18H7" />
+                        <path d="M7 14h.01" />
+                        <path d="M17 18h.01" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Формат</span>: выходного дня
+                      / многодневный
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 2v4" />
+                        <path d="m16.2 7.8 2.9-2.9" />
+                        <path d="M18 12h4" />
+                        <path d="m16.2 16.2 2.9 2.9" />
+                        <path d="M12 18v4" />
+                        <path d="m4.9 19.1 2.9-2.9" />
+                        <path d="M2 12h4" />
+                        <path d="m4.9 4.9 2.9 2.9" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Сезон</span>: круглый год
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+                        />
+                        <circle cx="12" cy="8" r="2" />
+                        <path
+                          d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+                        />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight"> Что будет </span>:
+                      маршруты, тренировки, ориентированиеб походы
+                    </p>
+                  </div>
+                  <button class="specs__button" type="button">
+                    Подробнее
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide__image-wrapper">
+                <img
+                  class="slide__image"
+                  src="assets/destinations-1.webp"
+                  alt="Пеший туризм"
+                />
+              </div>
+              <div class="slide__content">
+                <div class="slide__badge">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M19 23h-1.5v-9H19zM7.53 14H6l-2 9h1.53zm5.97-8.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2M9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6a2.145 2.145 0 0 0-2.65-.84L6 8.3V13h2V9.6z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="slide__title">Пешеходный туризм</p>
+                <p class="slide__text">
+                  Исследуйте живописные маршруты в горах и лесах. Развивайте
+                  выносливость, командный дух и навыки ориентирования на
+                  местности.
+                </p>
+                <div class="specs slide__specs">
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+                        <rect x="15" y="5" width="4" height="12" rx="1" />
+                        <rect x="7" y="8" width="4" height="9" rx="1" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Уровень</span>: начальный /
+                      средний
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <path d="M8 2v4" />
+                        <path d="M17 14h-6" />
+                        <path d="M13 18H7" />
+                        <path d="M7 14h.01" />
+                        <path d="M17 18h.01" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Формат</span>: выходного дня
+                      / многодневный
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 2v4" />
+                        <path d="m16.2 7.8 2.9-2.9" />
+                        <path d="M18 12h4" />
+                        <path d="m16.2 16.2 2.9 2.9" />
+                        <path d="M12 18v4" />
+                        <path d="m4.9 19.1 2.9-2.9" />
+                        <path d="M2 12h4" />
+                        <path d="m4.9 4.9 2.9 2.9" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Сезон</span>: круглый год
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+                        />
+                        <circle cx="12" cy="8" r="2" />
+                        <path
+                          d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+                        />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight"> Что будет </span>:
+                      маршруты, тренировки, ориентированиеб походы
+                    </p>
+                  </div>
+                  <button class="specs__button" type="button">
+                    Подробнее
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide__image-wrapper">
+                <img
+                  class="slide__image"
+                  src="assets/destinations-1.webp"
+                  alt="Пеший туризм"
+                />
+              </div>
+              <div class="slide__content">
+                <div class="slide__badge">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M19 23h-1.5v-9H19zM7.53 14H6l-2 9h1.53zm5.97-8.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2M9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6a2.145 2.145 0 0 0-2.65-.84L6 8.3V13h2V9.6z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="slide__title">Пешеходный туризм</p>
+                <p class="slide__text">
+                  Исследуйте живописные маршруты в горах и лесах. Развивайте
+                  выносливость, командный дух и навыки ориентирования на
+                  местности.
+                </p>
+                <div class="specs slide__specs">
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+                        <rect x="15" y="5" width="4" height="12" rx="1" />
+                        <rect x="7" y="8" width="4" height="9" rx="1" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Уровень</span>: начальный /
+                      средний
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <path d="M8 2v4" />
+                        <path d="M17 14h-6" />
+                        <path d="M13 18H7" />
+                        <path d="M7 14h.01" />
+                        <path d="M17 18h.01" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Формат</span>: выходного дня
+                      / многодневный
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 2v4" />
+                        <path d="m16.2 7.8 2.9-2.9" />
+                        <path d="M18 12h4" />
+                        <path d="m16.2 16.2 2.9 2.9" />
+                        <path d="M12 18v4" />
+                        <path d="m4.9 19.1 2.9-2.9" />
+                        <path d="M2 12h4" />
+                        <path d="m4.9 4.9 2.9 2.9" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Сезон</span>: круглый год
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+                        />
+                        <circle cx="12" cy="8" r="2" />
+                        <path
+                          d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+                        />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight"> Что будет </span>:
+                      маршруты, тренировки, ориентированиеб походы
+                    </p>
+                  </div>
+                  <button class="specs__button" type="button">
+                    Подробнее
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide__image-wrapper">
+                <img
+                  class="slide__image"
+                  src="assets/destinations-1.webp"
+                  alt="Пеший туризм"
+                />
+              </div>
+              <div class="slide__content">
+                <div class="slide__badge">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M19 23h-1.5v-9H19zM7.53 14H6l-2 9h1.53zm5.97-8.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2M9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6a2.145 2.145 0 0 0-2.65-.84L6 8.3V13h2V9.6z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="slide__title">Пешеходный туризм</p>
+                <p class="slide__text">
+                  Исследуйте живописные маршруты в горах и лесах. Развивайте
+                  выносливость, командный дух и навыки ориентирования на
+                  местности.
+                </p>
+                <div class="specs slide__specs">
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+                        <rect x="15" y="5" width="4" height="12" rx="1" />
+                        <rect x="7" y="8" width="4" height="9" rx="1" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Уровень</span>: начальный /
+                      средний
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <path d="M8 2v4" />
+                        <path d="M17 14h-6" />
+                        <path d="M13 18H7" />
+                        <path d="M7 14h.01" />
+                        <path d="M17 18h.01" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Формат</span>: выходного дня
+                      / многодневный
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 2v4" />
+                        <path d="m16.2 7.8 2.9-2.9" />
+                        <path d="M18 12h4" />
+                        <path d="m16.2 16.2 2.9 2.9" />
+                        <path d="M12 18v4" />
+                        <path d="m4.9 19.1 2.9-2.9" />
+                        <path d="M2 12h4" />
+                        <path d="m4.9 4.9 2.9 2.9" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Сезон</span>: круглый год
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+                        />
+                        <circle cx="12" cy="8" r="2" />
+                        <path
+                          d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+                        />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight"> Что будет </span>:
+                      маршруты, тренировки, ориентированиеб походы
+                    </p>
+                  </div>
+                  <button class="specs__button" type="button">
+                    Подробнее
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide__image-wrapper">
+                <img
+                  class="slide__image"
+                  src="assets/destinations-1.webp"
+                  alt="Пеший туризм"
+                />
+              </div>
+              <div class="slide__content">
+                <div class="slide__badge">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M19 23h-1.5v-9H19zM7.53 14H6l-2 9h1.53zm5.97-8.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2M9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6a2.145 2.145 0 0 0-2.65-.84L6 8.3V13h2V9.6z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="slide__title">Пешеходный туризм</p>
+                <p class="slide__text">
+                  Исследуйте живописные маршруты в горах и лесах. Развивайте
+                  выносливость, командный дух и навыки ориентирования на
+                  местности.
+                </p>
+                <div class="specs slide__specs">
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+                        <rect x="15" y="5" width="4" height="12" rx="1" />
+                        <rect x="7" y="8" width="4" height="9" rx="1" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Уровень</span>: начальный /
+                      средний
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <path d="M8 2v4" />
+                        <path d="M17 14h-6" />
+                        <path d="M13 18H7" />
+                        <path d="M7 14h.01" />
+                        <path d="M17 18h.01" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Формат</span>: выходного дня
+                      / многодневный
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 2v4" />
+                        <path d="m16.2 7.8 2.9-2.9" />
+                        <path d="M18 12h4" />
+                        <path d="m16.2 16.2 2.9 2.9" />
+                        <path d="M12 18v4" />
+                        <path d="m4.9 19.1 2.9-2.9" />
+                        <path d="M2 12h4" />
+                        <path d="m4.9 4.9 2.9 2.9" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Сезон</span>: круглый год
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+                        />
+                        <circle cx="12" cy="8" r="2" />
+                        <path
+                          d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+                        />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight"> Что будет </span>:
+                      маршруты, тренировки, ориентированиеб походы
+                    </p>
+                  </div>
+                  <button class="specs__button" type="button">
+                    Подробнее
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide__image-wrapper">
+                <img
+                  class="slide__image"
+                  src="assets/destinations-1.webp"
+                  alt="Пеший туризм"
+                />
+              </div>
+              <div class="slide__content">
+                <div class="slide__badge">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M19 23h-1.5v-9H19zM7.53 14H6l-2 9h1.53zm5.97-8.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2M9.8 8.9 7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6a2.145 2.145 0 0 0-2.65-.84L6 8.3V13h2V9.6z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="slide__title">Пешеходный туризм</p>
+                <p class="slide__text">
+                  Исследуйте живописные маршруты в горах и лесах. Развивайте
+                  выносливость, командный дух и навыки ориентирования на
+                  местности.
+                </p>
+                <div class="specs slide__specs">
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+                        <rect x="15" y="5" width="4" height="12" rx="1" />
+                        <rect x="7" y="8" width="4" height="9" rx="1" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Уровень</span>: начальный /
+                      средний
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <path d="M8 2v4" />
+                        <path d="M17 14h-6" />
+                        <path d="M13 18H7" />
+                        <path d="M7 14h.01" />
+                        <path d="M17 18h.01" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Формат</span>: выходного дня
+                      / многодневный
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M12 2v4" />
+                        <path d="m16.2 7.8 2.9-2.9" />
+                        <path d="M18 12h4" />
+                        <path d="m16.2 16.2 2.9 2.9" />
+                        <path d="M12 18v4" />
+                        <path d="m4.9 19.1 2.9-2.9" />
+                        <path d="M2 12h4" />
+                        <path d="m4.9 4.9 2.9 2.9" />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight">Сезон</span>: круглый год
+                    </p>
+                  </div>
+                  <div class="spec">
+                    <div class="spec__icon-wrapper">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path
+                          d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0"
+                        />
+                        <circle cx="12" cy="8" r="2" />
+                        <path
+                          d="M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712"
+                        />
+                      </svg>
+                    </div>
+                    <p class="spec__text">
+                      <span class="spec__highlight"> Что будет </span>:
+                      маршруты, тренировки, ориентированиеб походы
+                    </p>
+                  </div>
+                  <button class="specs__button" type="button">
+                    Подробнее
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="slider__button slider__button--left"
+            id="prevSlider"
+            type="button"
+            aria-label="Предыдущий слайд"
+            disabled
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m12 19-7-7 7-7" />
+              <path d="M19 12H5" />
+            </svg>
+          </button>
+          <button
+            class="slider__button slider__button--right"
+            id="nextSlider"
+            type="button"
+            aria-label="Следующий слайд"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </button>
+          <div class="slider__indicators"></div>
         </div>
       </section>
       <section class="container section section--contact" id="contacts">
@@ -357,7 +1559,7 @@
           <a class="logo logo--footer" href="/">
             <img
               class="logo__image"
-              src="logo.png"
+              src="assets/logo.png"
               alt="Логотип ТурКлуба РТУ МИРЭА"
             />
             ТурКлуб<br />РТУ МИРЭА
